@@ -10,8 +10,8 @@ txt = ""
 comprehend = boto3.client(
     service_name='comprehend',
     region_name='us-east-1',
-    aws_access_key_id='AKIAJBDRJ5D3SJ434B6Q',
-    aws_secret_access_key='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',
+    aws_access_key_id='',
+    aws_secret_access_key='',
     #aws_session_token=SESSION_TOKEN
 )
 
