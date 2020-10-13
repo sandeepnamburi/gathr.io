@@ -1,6 +1,6 @@
 // Client ID and API key from the Developer Console
-var CLIENT_ID = '167978326819-gsnnqp1v81rfibghsdh0b4ueuhd3igni.apps.googleusercontent.com';
-var API_KEY = 'AIzaSyApyhMJ0zPJnbigI8QqttMMy3WJimTU11g';
+var CLIENT_ID = '';
+var API_KEY = '';
 // var FOLDER_LABEL_ID = 'Label_5515722664636593650'
 var FOLDER_LABEL_ID = 'INBOX'
 
