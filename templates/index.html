@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../static/style.css"/>
+    <title>Gathr.io</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <p style="text-align: center;"><br>Sign In or Sign Out by pressing the button below.<br></p>
+
+    <!--Add buttons to initiate auth sequence and sign out-->
+    <button id="authorize_button" style="text-align: center; display: none; margin-left:auto; margin-right:auto;">Authorize</button>
+    <button id="signout_button" style="text-align: center; display: none; margin-left:auto; margin-right:auto;">Sign Out</button>
+    <br>
+    <br>
+    <div class="container">
+      <h1>Top Emails from Folder: <span id="folderName"></span></h1>
+
+      <table class="table table-striped table-inbox hidden">
+        <thead>
+          <tr>
+            <th>From</th>
+            <th>Subject</th>
+            <th>Date/Time</th>
+            <th>Company</th>
+            <th>Position</th>
+            <th>Application Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <h1 style="text-align: center;"><br><br>Email Folders</h1>
+    <pre id="content" style="white-space: pre-wrap; text-align: center;"></pre>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript" src="../static/recruitingFromTitles.js"></script>
+    <script type="text/javascript" src="../static/recruitingSubjects.js"></script>
+    <script type="text/javascript" src="../static/gmail_API.js">
+      import {returnRecruiterFromTitles} from 'recruitingFromTitles.js'
+      import {returnRecruiterSubjects} from 'recruitingSubjects.js'
+    </script>
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+    <!--<script async defer src="https://apis.google.com/js/api.js?onload=handleClientLoad"></script>
+    <script>
+      window.runMode = "Google";
+        if (window.runMode != "Google") { console.log("Fake authentication"); handleClientLoad(); }
+    </script>-->
+  </body>
+</html>

@@ -1,0 +1,37 @@
+// For more info: https://ibb.co/yF9kbYH
+function returnRecruiterFromTitles() {
+  return [
+    'greenhouse',
+    'recruiting',
+    'recruitmment',
+    'fastcareers',
+    'thank you for your interest',
+    'workdaynotification',
+    'myworkday',
+    'hire.lever.co',
+    'BCG Talent Team',
+    'candidates.workablemail',
+    'notification@jobvite.com',
+    'talent acquisition',
+    'CBRE-DoNotReply@cbre.com',
+    'jobs@seatgeek.com',
+    'no-reply@datadoghq.com',
+    'talent.icims.com',
+    'notifications@smartrecruiters.com',
+    'no-reply@berlinrosen.com',
+    'no-reply@asana.com',
+    'noreply@qualtrics.com',
+    'talent@mail.angel.co',
+    'no-reply@keystonestrategy.com',
+    'jobs@sentry.io',
+    'cisco.avature.net',
+    'noreply@applytojob.com',
+    'SAP Careers <system@successfactors.eu>',
+    'trm.brassring.com',
+    'Hillrom Careers <HillromCareers@hill-rom.com>',
+    'talent resources',
+    'bankcampuscareers.tal.net',
+    'interviews@hirevue.com',
+    'no-reply@robinhood.com'
+  ];
+}

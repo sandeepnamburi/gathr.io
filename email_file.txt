@@ -1,0 +1,7 @@
+body: <p><span style="font-weight: 400;">Hi Sandeep,</span></p>
+<p><span style="font-weight: 400;">Hooray! We are very pleased to receive your resume. Thank you for taking an interest in Fyber, we are happy that you are considering joining our company.&nbsp;</span></p>
+<p><span style="font-weight: 400;">We will review your application in the next few days and we&rsquo;ll get back to you soon.</span></p>
+<p><span style="font-weight: 400;">Hope to see you as part of our growing company.</span></p>
+<p><span style="font-weight: 400;">Best of luck!<br /><br /></span></p>
+<p><strong>Fyber's hiring team!&nbsp;</strong></p>
+<p><span style="font-weight: 400;">** Please note: Do not reply to this email. This email is sent from an unattended mailbox. Replies will not be read.</span></p>
