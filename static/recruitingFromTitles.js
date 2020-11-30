@@ -15,6 +15,7 @@ function returnRecruiterFromTitles() {
     'talent acquisition',
     'CBRE-DoNotReply@cbre.com',
     'jobs@seatgeek.com',
+    'no-reply-careers@vmware.com',
     'no-reply@datadoghq.com',
     'talent.icims.com',
     'notifications@smartrecruiters.com',
